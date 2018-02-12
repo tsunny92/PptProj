@@ -1,5 +1,5 @@
 cron { 'run-puppet':
-command => '/usr/local/bin/run-puppet',
+command => 'sh /root/pupperproj/files/run-puppet.sh',
 hour => '*',
 minute => '*/15',
 }
