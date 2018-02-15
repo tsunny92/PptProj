@@ -1,5 +1,5 @@
 service { 'ntp':
         ensure => running,
         enable => true,
-        hasrestart => true,
+        restart => 'systemctl restart ntpd',
 }
