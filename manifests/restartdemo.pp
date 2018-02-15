@@ -1,5 +1,5 @@
 service { 'ntp':
         ensure => running,
         enable => true,
-        harestart => true,
+        hasrestart => true,
 }
