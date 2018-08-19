@@ -3,6 +3,7 @@ val = False
 str1 = ['Hi','Hey','Hello']
 str2 = ['How are you', 'How you doing']
 str3 = "Bye"
+str4 = "Fine"
 message = "Hey there"
 nextmsg = "I am fine , How are you ?"
 while val == False:
@@ -12,7 +13,9 @@ while val == False:
 			print(message)
 	for nextdata in str2:
 		if msg == nextdata:
-			print(nextmsg)			
+			print(nextmsg)		
+	if msg == str4:
+		print("Okay cool")
 	if msg == str3:
 		val = True
 		print("Bye see you again")
