@@ -1,0 +1,5 @@
+$message = lookup('message', String)
+notice("Today message is $message ")
+$host= lookup('hostname', String)
+notice("Hostname is $host")
+notice("My hostname is ${lookup('hostname', String)} ")
