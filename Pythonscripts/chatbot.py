@@ -15,9 +15,9 @@ while val == False:
 	for nextdata in str2:
 		if msg == nextdata:
 			print(nextmsg)		
-	if msg == str4:
-		print("Okay cool")
-			print(nextmsg)
+	        #if msg == str4:
+		#     print("Okay cool")
+		#	print(nextmsg)
 	if msg == str4:
 		print("Okay cool")			
 	if msg == str3:
